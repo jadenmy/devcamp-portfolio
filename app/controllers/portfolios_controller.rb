@@ -51,6 +51,7 @@ class PortfoliosController < ApplicationController
     @portfolio_item = Portfolio.find(params[:id])
     
     #destroy the record 
+    @portfolio_item.technologies.destroy_all
     @portfolio_item.destroy
     
     #redirect
