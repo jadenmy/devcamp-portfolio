@@ -16,9 +16,9 @@
     
     <%= login_helper %>
     
-    <%= yield %>
+     <%= render "shared/nav", location: 'bottom' %>
     
-    <%= render "shared/nav", location: 'bottom' %>
+    <%= yield %>
     
     <%= source_helper("blog") %>
   </body>
