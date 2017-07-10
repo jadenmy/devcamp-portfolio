@@ -5,7 +5,6 @@ class BlogsController < ApplicationController
   # GET /blogs
   # GET /blogs.json
   def index
-    byebug
     @blogs = Blog.all
     @page_title = "My Portolio Blog"
   end
