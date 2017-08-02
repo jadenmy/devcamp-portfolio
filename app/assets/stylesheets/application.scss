@@ -81,6 +81,10 @@ body {
   border-bottom: .25rem solid transparent;
 }
 
+.nav-link {
+  transition:border-bottom-color .2s;
+}
+
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
   border-bottom-color: rgba(255,255,255,.25);
@@ -214,4 +218,14 @@ body {
 
 .app-footer {
   color: white;
+}
+
+.btn-about {
+  transition: color .5s, background-color .5s, border-color .5s;
+}
+
+.btn-about:hover {
+  color: white;
+  background-color: black;
+  border-color: white;
 }
