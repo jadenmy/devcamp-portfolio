@@ -229,3 +229,16 @@ body {
   background-color: black;
   border-color: white;
 }
+
+.app-card-container {
+  color: black;
+  text-align: left;
+}
+
+.app-card-container > .card {
+  padding: 40px;
+}
+
+.profile-img {
+  padding: 15px;
+}
