@@ -41,6 +41,10 @@ module ApplicationHelper
       {
         url: portfolios_path,
         title: 'Portfolio'
+      },
+      {
+        url: settings_path,
+        title: 'Settings'
       }
     ]
   end

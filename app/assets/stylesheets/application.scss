@@ -193,14 +193,6 @@ body {
   margin-right: 10px;
 }
 
-#you-will-never {
-  color: red;
-}
-
-#cant-leave {
-  color: red;
-}
-
 #background {
   position: fixed;
   top: 50%;
@@ -221,6 +213,7 @@ body {
 }
 
 .btn-about {
+  border-color: black;
   transition: color .5s, background-color .5s, border-color .5s;
 }
 
@@ -251,4 +244,16 @@ body {
 .skill {
   margin-top: 5px;
   margin-bottom: 5px;
+}
+
+.job-btn {
+  margin-top: 15px;
+}
+
+.google-img {
+  position: right;
+}
+
+.home-card {
+  text-align: center;
 }
